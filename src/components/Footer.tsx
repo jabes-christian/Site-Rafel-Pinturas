@@ -13,11 +13,10 @@ const Footer = () => {
     <footer className="bg-rp-blue-dark text-rp-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* About */}
+          {/* About - Only Icon */}
           <div>
             <div className="flex items-center mb-4">
-              <PaintBucket className="text-rp-blue-light mr-2" fill="#FF8200" size={28} />
-              <h3 className="text-xl font-bold">Rafael Pinturas</h3>
+              <PaintBucket className="text-rp-blue-light" fill="#FF8200" size={42} />
             </div>
             <p className="text-rp-white text-opacity-80">
               Transformando espaços com qualidade, durabilidade e beleza.
