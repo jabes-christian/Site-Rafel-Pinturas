@@ -100,7 +100,7 @@
   }
   
   .btn-primary {
-    @apply px-6 py-3 bg-rp-orange text-white font-medium rounded-md transition-all duration-300 hover:bg-opacity-90 hover:scale-105 hover:shadow-lg focus:outline-none inline-block text-center;
+    @apply px-6 py-3 text-white font-medium rounded-md transition-all duration-300 hover:scale-105 hover:shadow-lg focus:outline-none inline-block text-center bg-gradient-to-r from-rp-orange to-orange-500;
   }
   
   .service-card {
