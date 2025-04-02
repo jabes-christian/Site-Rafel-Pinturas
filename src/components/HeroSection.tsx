@@ -15,16 +15,15 @@ const HeroSection = () => {
       id="hero" 
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(rgba(3, 34, 99, 0.7), rgba(3, 34, 99, 0.7)), url('/images/hero-bg.jpg')",
+        backgroundImage: "linear-gradient(rgba(3, 34, 99, 0.8), rgba(3, 34, 99, 0.8)), url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1974&auto=format&fit=crop')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        filter: "blur(0px)",
       }}
     >
       <div className="absolute inset-0 bg-rp-blue-dark bg-opacity-60 backdrop-blur-sm"></div>
       
       <div className="relative z-10 container mx-auto text-center px-4">
-        <h1 className="text-5xl md:text-7xl font-bold text-rp-white mb-6 animate-fade-in-down">
+        <h1 className="text-5xl md:text-7xl font-bold text-rp-white mb-6 animate-fade-in-down font-urbanist">
           Rafael Pinturas
         </h1>
         

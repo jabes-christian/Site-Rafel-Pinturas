@@ -1,5 +1,5 @@
 
-import { Instagram, Phone, Mail, ArrowUp } from "lucide-react";
+import { Instagram, Phone, Mail, ArrowUp, PaintBucket } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -15,7 +15,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Rafael Pinturas</h3>
+            <div className="flex items-center mb-4">
+              <PaintBucket className="text-rp-blue-light mr-2" fill="#FF8200" size={28} />
+              <h3 className="text-xl font-bold">Rafael Pinturas</h3>
+            </div>
             <p className="text-rp-white text-opacity-80">
               Transformando espaços com qualidade, durabilidade e beleza.
               Serviços de pintura profissional para valorizar seu ambiente.
@@ -71,7 +74,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-rp-orange" />
-                <span>contato@rafaelpinturas.com.br</span>
+                <span>rafa1.o.gabriel@outlook.com</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Instagram size={18} className="text-rp-orange" />

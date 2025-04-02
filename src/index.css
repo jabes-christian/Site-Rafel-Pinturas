@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -89,12 +91,12 @@
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-bold mb-8 text-center relative;
+    @apply text-3xl md:text-4xl font-bold mb-16 text-center relative pb-8;
   }
   
   .section-title::after {
     content: '';
-    @apply absolute w-20 h-1 bg-rp-orange left-1/2 -translate-x-1/2 bottom-0 mt-2;
+    @apply absolute w-24 h-1 bg-rp-orange left-1/2 -translate-x-1/2 bottom-0 mt-6;
   }
   
   .btn-primary {
@@ -120,6 +122,10 @@
   
   .icon-container {
     @apply flex items-center justify-center w-16 h-16 rounded-full bg-rp-blue-light bg-opacity-10 mb-4 mx-auto text-rp-blue-light;
+  }
+
+  .font-urbanist {
+    font-family: 'Urbanist', sans-serif;
   }
 }
 

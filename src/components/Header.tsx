@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, PaintBucket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -49,13 +49,20 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="#hero" className="flex items-center">
-            <h1 
-              className={`text-2xl font-bold transition-colors duration-300 ${
-                isScrolled ? "text-rp-blue-dark" : "text-white"
-              }`}
-            >
-              Rafael Pinturas
-            </h1>
+            <div className="flex items-center">
+              <PaintBucket 
+                className={`mr-2 ${isScrolled ? "text-rp-blue-dark" : "text-white"}`} 
+                fill={isScrolled ? "#FF8200" : "#FF8200"} 
+                size={32} 
+              />
+              <h1 
+                className={`text-2xl font-bold transition-colors duration-300 ${
+                  isScrolled ? "text-rp-blue-dark" : "text-white"
+                }`}
+              >
+                Rafael Pinturas
+              </h1>
+            </div>
           </a>
           
           {/* Desktop Navigation */}

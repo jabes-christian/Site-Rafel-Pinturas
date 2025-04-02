@@ -72,7 +72,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-500">Email</p>
-                <p className="text-lg font-medium">contato@rafaelpinturas.com.br</p>
+                <p className="text-lg font-medium">rafa1.o.gabriel@outlook.com</p>
               </div>
             </div>
             
@@ -99,8 +99,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-500">Horário de Atendimento</p>
-                <p className="text-lg font-medium">Segunda a Sexta: 8h às 18h</p>
-                <p className="text-lg font-medium">Sábado: 8h às 12h</p>
+                <p className="text-lg font-medium">24/7</p>
               </div>
             </div>
           </div>
