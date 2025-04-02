@@ -9,13 +9,20 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 
-// Placeholder images until real project images are provided
+// Real project images
 const galleryImages = [
-  { id: 1, src: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBhaW50aW5nJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60", alt: "Projeto de pintura residencial" },
-  { id: 2, src: "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50aW5nJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60", alt: "Acabamento texturizado" },
-  { id: 3, src: "https://images.unsplash.com/photo-1558618666-c9d0fc4a5107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFpbnRpbmclMjB3YWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60", alt: "Pintura comercial" },
-  { id: 4, src: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFpbnRpbmclMjB3YWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60", alt: "Preparação de superfície" },
-  { id: 5, src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGFpbnRpbmclMjB3YWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60", alt: "Pintura de fachada" },
+  { id: 1, src: "public/lovable-uploads/a245dfad-6b85-4e9f-8a47-f68ad31a79a9.png", alt: "Projeto de pintura residencial com textura cinza" },
+  { id: 2, src: "public/lovable-uploads/e474485b-7653-4083-a986-148e49d6736d.png", alt: "Preparação de parede com acabamento texturizado" },
+  { id: 3, src: "public/lovable-uploads/a29f14de-98ea-4c95-b468-24a38a7db050.png", alt: "Acabamento de parede com detalhes em branco" },
+  { id: 4, src: "public/lovable-uploads/2afd0b27-3799-4fe2-bbbf-9053dee82283.png", alt: "Textura aplicada em parede com nichos" },
+  { id: 5, src: "public/lovable-uploads/8f1eed26-2cc0-4a3f-bac9-951fb0f27a17.png", alt: "Preparação de parede para pintura" },
+  { id: 6, src: "public/lovable-uploads/e9ce67bc-dd15-4d09-8c2c-a39908ae92d4.png", alt: "Instalação e pintura em banheiro" },
+  { id: 7, src: "public/lovable-uploads/e48b535e-279b-4542-b6c4-ba92b7b318ff.png", alt: "Instalação e pintura em banheiro com acabamento branco" },
+  { id: 8, src: "public/lovable-uploads/a53adfef-e298-4a6c-a50b-7267315c3dd7.png", alt: "Deck de madeira envernizado" },
+  { id: 9, src: "public/lovable-uploads/ff5098a8-d42b-448e-a3ff-42095bcb5adc.png", alt: "Deck de madeira com acabamento" },
+  { id: 10, src: "public/lovable-uploads/ebfbef5b-6459-4794-9473-5b4d2ab093ab.png", alt: "Sala com pintura texturizada e janelas" },
+  { id: 11, src: "public/lovable-uploads/06f38157-14a8-4d0e-bdb6-282133674fd8.png", alt: "Corredor com pintura cinza" },
+  { id: 12, src: "public/lovable-uploads/aada73e8-4596-4729-8d7a-c34ae6b4ec4d.png", alt: "Sala com pintura cinza e piso em cerâmica" },
 ];
 
 const GallerySection = () => {

@@ -64,7 +64,7 @@ const ServicesSection = () => {
               {serviceType.items.map((service, serviceIndex) => (
                 <Card 
                   key={serviceIndex}
-                  className={`overflow-hidden transition-all duration-300 ${
+                  className={`overflow-hidden transition-all duration-300 h-full flex flex-col ${
                     hoveredCard === typeIndex * 10 + serviceIndex 
                       ? 'shadow-xl transform -translate-y-2 border-rp-blue-light' 
                       : 'shadow-md hover:shadow-lg'
@@ -75,7 +75,7 @@ const ServicesSection = () => {
                   <CardHeader className="bg-gradient-to-r from-rp-blue-dark to-rp-blue-light p-4">
                     <CardTitle className="text-rp-white text-lg">{service.name}</CardTitle>
                   </CardHeader>
-                  <CardContent className="p-5">
+                  <CardContent className="p-5 flex-grow">
                     <p className="text-gray-700">{service.description}</p>
                   </CardContent>
                 </Card>
